@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--
+    <com.example.android101.util.SquaredImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+-->
+    <TextView
+        android:id="@+id/merchant_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merchant Name"
+        />
+    <TextView
+        android:id="@+id/merchant_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merchant Number"
+        />
+    <Button
+        android:id="@+id/merchant_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merchant Button"/>
+</LinearLayout>

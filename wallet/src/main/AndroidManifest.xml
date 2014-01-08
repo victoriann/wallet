@@ -55,6 +55,10 @@
         android:name=".ui.LoginActivity"
         android:label="@string/login_activity"
         />
-
+      <activity
+          android:name=".ui.MerchantActivity"
+          android:label="@string/merchant_activity"
+          />
   </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
